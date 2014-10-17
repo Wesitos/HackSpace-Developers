@@ -83,11 +83,11 @@ var items = [
 	},
 	{
 		"title": "Cristian Huertos",
-		"tags": ["Linux", "X-Monad"],
+		"tags": ["Linux", "X-Monad", "Arduino", "CRO"],
 		"author": "@Mizhac",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+		"description": "Marketero por pasión, CRO & Análisis de datos. Me gusta hacer diagramas de flujo y como hobby meterle 220V a los arduinos",
 		"home_url": "http://hackspace.la/",
-		"github_url": "http://hackspace.la/"
+		"github_url": "http://mizhac.me/"
 	}
 
 ];
