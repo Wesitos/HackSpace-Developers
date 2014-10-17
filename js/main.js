@@ -34,6 +34,14 @@ var items = [
 		"github_url": "http://hackspace.la/"
 	},
 	{
+		"title": "Eduardo Yayico",
+		"tags": ["Arduino"],
+		"author": "@CestDiego",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+		"home_url": "http://hackspace.la/",
+		"github_url": "http://hackspace.la/"
+	},
+	{
 		"title": "Luis Cairampoma",
 		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
 		"author": "@CestDiego",
