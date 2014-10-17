@@ -13,7 +13,7 @@ var items = [
 		"title": "Hans Evangelista",
 		"tags": ["Backend", "Frontend", "BackboneJS", "AngularJS", "NodeJS", "Jhonny Five", "Django", "MongoDB", "Heroku"],
 		"author": "@Hanshavin_code",
-		"description": "Desarrollador por pasion, enamorado de aprende y crear tecnologia. Dedico mi vida a trabajar en mis proyectos, en los de amigos y de empresas que admiro. Musico, poeta, cantante, hipster ...",
+		"description": "Desarrollador por pasion, enamorado de aprender y crear tecnologia. Dedico mi vida a trabajar en mis proyectos, en los de amigos y de empresas que admiro. Musico, poeta, cantante, hipster ...",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
