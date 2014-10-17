@@ -5,7 +5,7 @@ var items = [
 		"title": "Alvaro Concha",
 		"tags": ["Frontend", "AngularJS", "Bootstrap"],
 		"author": "@Alvarorcu",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+		"description": "Soy un apasionado por la creación. Me interesa, además, llevar nuevas tecnologías y oportunidades referentes a ellas a otros jóvenes, así como fomentar espacios en los que podamos expresarnos correctamente, crear y compartir.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
@@ -13,7 +13,7 @@ var items = [
 		"title": "Hans Evangelista",
 		"tags": ["Backend", "Frontend", "BackboneJS", "AngularJS", "NodeJS", "Jhonny Five", "Django", "MongoDB", "Heroku"],
 		"author": "@Hanshavin_code",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+		"description": "Desarrollador por pasion, enamorado de aprende y crear tecnologia. Dedico mi vida a trabajar en mis proyectos, en los de amigos y de empresas que admiro. Musico, poeta, cantante, hipster ...",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
