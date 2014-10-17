@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Backend", "Frontend", "Arduino", "Jhonny Five", "BackboneJS", "React", "AngularJS", "Linux", "Emacs", "Clojure", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "X-Monad", "MongoDB", "Redis", "Bootstrap", "Lisp"];
+var tags = ["Backend", "Frontend", "Arduino", "Jhonny Five", "BackboneJS", "React", "AngularJS", "Linux", "Emacs", "Clojure", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "X-Monad", "MongoDB", "Redis", "Bootstrap", "Lisp", "Heroku", "Digital Ocean", "AWS", "Firebase", "Julia", "Tornado"];
 var items = [
 	{
 		"title": "Alvaro Concha",
@@ -11,7 +11,7 @@ var items = [
 	},
 	{
 		"title": "Hans Evangelista",
-		"tags": ["Backend", "Frontend", "Jhonny Five", "BackboneJS", "NodeJS", "Django", "MongoDB"],
+		"tags": ["Backend", "Frontend", "BackboneJS", "AngularJS", "NodeJS", "Jhonny Five", "Django", "MongoDB", "Heroku"],
 		"author": "@Hanshavin_code",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
@@ -19,7 +19,7 @@ var items = [
 	},
 	{
 		"title": "Diego Berrocal",
-		"tags": ["Backend", "Linux", "Emacs", "Python", "Django", "X-Monad", "MongoDB"],
+		"tags": ["Backend", "Linux", "Emacs", "Python", "Django", "X-Monad", "MongoDB", "Digital Ocean", "AWS"],
 		"author": "@CestDiego",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
@@ -27,8 +27,8 @@ var items = [
 	},
 	{
 		"title": "Giorgio Leveroni",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis", "Heroku", "Digital Ocean", "AWS", "Firebase", "Tornado"],
+		"author": "@Ppold",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
@@ -36,55 +36,55 @@ var items = [
 	{
 		"title": "Eduardo Yayico",
 		"tags": ["Arduino"],
-		"author": "@CestDiego",
+		"author": "@",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Luis Cairampoma",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Backend", "Frontend", "Emacs", "Clojure", "Heroku", "Digital Ocean", "AWS", "Firebase"],
+		"author": "@HintHack",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Fredy Morales",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Backend", "Frontend", "Emacs", "Clojure", "Firebase", "Julia"],
+		"author": "@",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Pedro Palacios",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Backend", "Frontend", "Emacs", "Clojure", "Tornado"],
+		"author": "@",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Nataly Yuricasa",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Arduino"],
+		"author": "@",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Martin Jose Maria",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Arduino", "Linux"],
+		"author": "@",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
 	},
 	{
 		"title": "Cristian Huertos",
-		"tags": ["Backend", "Frontend", "React", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis"],
-		"author": "@CestDiego",
+		"tags": ["Linux", "X-Monad"],
+		"author": "@Mizhac",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"

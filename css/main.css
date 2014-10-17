@@ -217,5 +217,9 @@ Hashavin
 }
 
 .item{
-  max-width: 100%;
+  max-width: 95%;
+}
+
+.subtitle{
+  font-size: 1.5em;
 }
