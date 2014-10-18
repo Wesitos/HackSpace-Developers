@@ -60,7 +60,7 @@ var items = [
 	{
 		"title": "Pedro Palacios",
 		"tags": ["Backend", "Frontend", "Emacs", "Clojure", "Python", "Tornado", "AWS", "ReactJS", "Arduino"],
-		"author": "@",
+		"author": "@Pedrogpa",
 		"description": "GG.",
 		"home_url": "http://hackspace.la/",
 		"github_url": "http://hackspace.la/"
