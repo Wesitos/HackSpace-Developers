@@ -27,7 +27,7 @@ var items = [
 	},
 	{
 		"title": "Giorgio Leveroni",
-		"tags": ["Backend", "Frontend", "ReactJS", "AngularJS", "Emacs", "Clojure", "Lisp", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis", "Heroku", "Digital Ocean", "AWS", "Firebase", "Tornado"],
+		"tags": ["Backend", "Frontend", "ReactJS", "AngularJS", "BackboneJS", "Bootstrap", "Linux", "Emacs", "Clojure", "Lisp", "Julia", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis", "Heroku", "Digital Ocean", "AWS", "Firebase", "Tornado", "Arduino"],
 		"author": "@Ppold",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
@@ -142,17 +142,30 @@ addAllItems = function(){
 				}
 			}
 		}
+		
+		if(items[i].title == "Giorgio Leveroni"){
+			$("#items").append(
+				'<section class="profet item mix" data-group="'+tagsData+'">'+
+					'<a href="'+(items[i].home_url?items[i].home_url:(items[i].github_url?items[i].github_url:items[i].google_url))+'" class="item-title"><h3>'+items[i].title+'</h3></a>'+
+					userString+
+					'<div class="tags-container meta"><i class="fa fa-tag"></i> <span class="tags">'+tagsString+'</span></div>'+
+					'<div class="description">'+items[i].description+'</div>'+
+					'<div class="buttons-container">'+buttonsString+'</div>'+
+				'</section>'
+			);
+		}
+		else{
+			$("#items").append(
+				'<section class="item mix" data-group="'+tagsData+'">'+
+					'<a href="'+(items[i].home_url?items[i].home_url:(items[i].github_url?items[i].github_url:items[i].google_url))+'" class="item-title"><h3>'+items[i].title+'</h3></a>'+
+					userString+
+					'<div class="tags-container meta"><i class="fa fa-tag"></i> <span class="tags">'+tagsString+'</span></div>'+
+					'<div class="description">'+items[i].description+'</div>'+
+					'<div class="buttons-container">'+buttonsString+'</div>'+
+				'</section>'
+			);
+		}
 
-		// Append the html.
-		$("#items").append(
-			'<section class="item mix" data-group="'+tagsData+'">'+
-				'<a href="'+(items[i].home_url?items[i].home_url:(items[i].github_url?items[i].github_url:items[i].google_url))+'" class="item-title"><h3>'+items[i].title+'</h3></a>'+
-				userString+
-				'<div class="tags-container meta"><i class="fa fa-tag"></i> <span class="tags">'+tagsString+'</span></div>'+
-				'<div class="description">'+items[i].description+'</div>'+
-				'<div class="buttons-container">'+buttonsString+'</div>'+
-			'</section>'
-		);
 	};
 }
 
