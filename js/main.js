@@ -1,5 +1,5 @@
 var $itemsElement;
-var tags = ["Backend", "Frontend", "Arduino", "Jhonny Five", "BackboneJS", "ReactJS", "AngularJS", "Linux", "Emacs", "Clojure", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "X-Monad", "MongoDB", "Redis", "Bootstrap", "Lisp", "Heroku", "Digital Ocean", "AWS", "Firebase", "Julia", "Tornado", "CRO"];
+var tags = ["Backend", "Frontend", "Arduino", "Jhonny Five", "BackboneJS", "ReactJS", "AngularJS", "Linux", "Emacs", "Clojure", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "X-Monad", "MongoDB", "Redis", "Bootstrap", "Lisp", "Heroku", "Digital Ocean", "AWS", "Firebase", "Julia", "Tornado", "CRO", "Ansible"];
 var items = [
 	{
 		"title": "Alvaro Concha",
@@ -19,7 +19,7 @@ var items = [
 	},
 	{
 		"title": "Diego Berrocal",
-		"tags": ["Backend", "Linux", "Emacs", "Python", "Django", "X-Monad", "MongoDB", "Digital Ocean", "AWS"],
+		"tags": ["Backend", "Linux", "Emacs", "Python", "Django", "X-Monad", "MongoDB", "Digital Ocean", "AWS", "Ansible"],
 		"author": "@CestDiego",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
@@ -27,7 +27,7 @@ var items = [
 	},
 	{
 		"title": "Giorgio Leveroni",
-		"tags": ["Backend", "Frontend", "ReactJS", "AngularJS", "BackboneJS", "Bootstrap", "Linux", "Emacs", "Clojure", "Lisp", "Julia", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis", "Heroku", "Digital Ocean", "AWS", "Firebase", "Tornado", "Arduino"],
+		"tags": ["Backend", "Frontend", "ReactJS", "AngularJS", "BackboneJS", "Bootstrap", "Linux", "Emacs", "Clojure", "Lisp", "Julia", "NodeJS", "Python", "Django", "Ruby", "Ruby On Rails", "MongoDB", "Redis", "Heroku", "Digital Ocean", "AWS", "Firebase", "Tornado", "Arduino", "Ansible"],
 		"author": "@Ppold",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 		"home_url": "http://hackspace.la/",
@@ -59,11 +59,11 @@ var items = [
 	},
 	{
 		"title": "Pedro Palacios",
-		"tags": ["Backend", "Frontend", "Emacs", "Clojure", "Python", "Tornado", "AWS", "ReactJS", "Arduino"],
+		"tags": ["Backend", "Frontend", "Arduino", "ReactJS", "Linux", "Emacs", "Clojure", "Python", "AWS", "Tornado", "Ansible"],
 		"author": "@Pedrogpa",
-		"description": "GG.",
-		"home_url": "http://hackspace.la/",
-		"github_url": "http://hackspace.la/"
+		"description": "Programador backend. Larga vida a Python. I <3 git. Hago deployment en AWS con ansible cuando no puedo dormir. Fork me on github!",
+		"home_url": "#",
+		"github_url": "https://github.com/Wesitos/"
 	},
 	{
 		"title": "Nataly Yuricasa",
